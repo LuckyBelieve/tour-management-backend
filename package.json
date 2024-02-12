@@ -5,9 +5,10 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev":"nodemon server.js",
-    "start":"node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm install && npm run migrate && npm run build"
   },
   "author": "Lucky",
   "license": "ISC",
